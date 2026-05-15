@@ -50,6 +50,7 @@ const webCss = `/* ${WARNING} */
 
 :root {
 ${colorDecls(tokens.colors.light)}
+  --radius: ${tokens.radius.lg}px;
 }
 
 .dark {
